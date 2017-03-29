@@ -1,0 +1,17 @@
+{
+  "name": "temp-by-zip",
+  "version": "1.0.0",
+  "description": "Get temperature by zipcode",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "harish",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "forecastio": "^1.0.2",
+    "zippity-do-dah": "0.0.2"
+  }
+}
